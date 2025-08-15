@@ -1,0 +1,11 @@
+[project]
+name = "livestream"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "transformers @ git+https://github.com/huggingface/transformers@v4.49.0-Gemma-3",
+    "hf_transfer",
+    "torch"
+]
